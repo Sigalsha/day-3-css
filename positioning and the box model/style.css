@@ -1,0 +1,56 @@
+/*#one {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    padding: 20px;
+   
+}
+
+#two {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+}*/
+
+#parent { 
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#child1 {
+    background-color: green;
+    right: 0;
+}
+
+#child2 {
+    background-color: blue;
+}
+
+#child3 { 
+    background-color: purple;
+    bottom: 0;
+    right: 0;
+}
+
+#child4 { 
+    background-color: yellow;
+    left: 0;
+    bottom: 0;
+}
+
+#child5 {
+    background-color: white;
+    left: 100px;
+    bottom: 100px;
+}

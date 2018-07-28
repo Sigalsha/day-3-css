@@ -1,0 +1,105 @@
+/*body {
+    background-color: #e74c3c;
+}*/
+
+#container {
+    display: grid;
+    height: 50vh;
+    width: 70vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    grid-template-areas: 
+    "gl w gr"
+    "rl w rr"
+    "c c c";
+}
+
+.top-left-grey {
+    grid-area: gl;
+    background-color: lightgrey;
+    border-radius: 5% 5% 0 0;
+}
+
+.top-right-grey {
+    grid-area: gr;
+    background-color: lightgrey;
+    border-radius: 5% 5% 0 0;
+    
+}
+
+.red-left {
+    grid-area: rl;
+    background-color: #d22626;
+   
+
+}
+
+.red-right {
+    grid-area: rr;
+    background-color: #d22626;
+}
+
+.red-center {
+    grid-area: c;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "cl cc cr";
+    
+}
+
+.inner-white {
+    grid-area: w;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: #d22626;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "no no"
+    "cia cib";
+}
+
+#inner-circle {
+    grid-area: cia;
+    border-radius: 0 0 0 10% ;
+    background-color: white;
+    
+}
+
+#inner-circle2 {
+    grid-area: cib;
+    border-radius: 0 0 10% 0;
+    background-color: white;
+    
+}
+
+#inner-nothing {
+    grid-area: no;
+    background-color: white;
+
+}
+
+#cornerLeft {
+    grid-area: cl;
+    width: 100%;
+    border-radius: 0 0 0 15%;
+    background-color: #d22626;
+
+}
+
+#centerContainer {
+    grid-area: cc;
+    background-color:#d22626;
+
+}
+
+#cornerRight {
+    grid-area: cr;
+    border-radius: 0 0 15% 0;
+    background-color: #d22626 ;
+}
+
+/*complete*/

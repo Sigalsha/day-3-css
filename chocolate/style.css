@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    height: 40vh;
+    width: 80vh;
+    background-color: black;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 4fr 0.3fr 4fr;
+    grid-template-areas:
+        "fr fr fr fr"
+        "sl s s sr"
+        "br br br .";
+    grid-gap: 0.25% 0.5%;   
+}
+
+.firstRow {
+    grid-area: fr;
+    background-color: #66320E;
+}
+
+.secondRow {
+    background-color: darkred;
+}
+
+#sl {
+    grid-area: sl;
+}
+
+#s {
+    grid-area: s;
+}
+
+#sr {
+    grid-area: sr;
+}
+
+.bottomRow {
+    grid-area: br;
+    background-color: #66320E;
+}
+
+
+
+
+

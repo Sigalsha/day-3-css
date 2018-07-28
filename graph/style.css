@@ -1,0 +1,104 @@
+#parentContainer {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(12, 1fr) 3fr;
+    grid-template-rows: 1fr 6fr;
+    grid-template-areas: 
+    ""
+    "f f f f f f";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#parent {
+    background-color: #884dff;
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.child {
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 30px;
+    bottom: 5px;
+    margin-right: 20px;
+}
+
+#child1 {
+    height: 60px;
+    right: 200px;
+}
+
+#child2 {
+    left: 110px;
+    height: 80%;
+}
+
+#child3 {
+    left: 165px;
+    height: 70%;
+}
+
+#child4 {
+    left: 165px;
+    height: 70%;
+}
+
+#child5 {
+    left: 165px;
+    height: 40%;
+}
+
+#child6 {
+    height: 30px;
+    left: 5px;
+}
+
+.content {
+
+}
+
+#money {
+    top: 5px; 
+    left: 10px;   
+}
+
+#time {
+    right: 35px;
+    bottom: 5px;
+}*/
